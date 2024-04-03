@@ -1,7 +1,7 @@
 import numpy as np 
 import cv2 
 
-YELLOW_COLOR = (0, 255, 255)
+YELLOW_COLOR = (0, 250, 240)
 BLUE_COLOR = (255, 0, 0)
 RED_COLOR = (0, 0, 255)
 COLORS = [RED_COLOR, BLUE_COLOR, YELLOW_COLOR]
@@ -93,7 +93,6 @@ if __name__ == '__main__':
         ig.add_squares(2, color, 3)
         ig.add_triangles(2, color, 3)
         ig.add_circles(2, color, 3)
-        ig.add_pentagons(2, color, 3)
         ig.add_pentagons(2, color, 3)
 
     ig.save_image('generated_image.png')
