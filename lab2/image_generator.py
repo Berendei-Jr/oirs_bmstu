@@ -8,7 +8,6 @@ COLORS = [RED_COLOR, BLUE_COLOR, YELLOW_COLOR]
 
 
 class ImageGenerator:
-
     def __init__(self, image):
         self.image = image
         self.shape = image.shape
