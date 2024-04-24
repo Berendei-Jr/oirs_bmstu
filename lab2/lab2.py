@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
                 # выделение контуров
                 if len(apd) == 5:
-                        cv2.drawContours(img, [cont], -1, (255, 255, 255), 10)
+                        cv2.drawContours(img, [apd], -1, (255, 255, 255), 10)
 
         show_image('final', img)
 
